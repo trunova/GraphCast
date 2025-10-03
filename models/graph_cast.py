@@ -31,7 +31,7 @@ class ContextualPresenceClassifier(nn.Module):
 
         
 
-class FDSG(nn.Module):
+class GraphCast(nn.Module):
     def __init__(self, triplet_embed_dim, num_relation_classes):
         super().__init__()
         self.num_relation_classes = num_relation_classes
